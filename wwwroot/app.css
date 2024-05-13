@@ -1,0 +1,28 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+.container {
+    margin: 5px;
+    display: block;
+}
+
+.container div {
+    display: block;
+    height: 30px;
+    width: 100%;
+    text-align: center;
+    background-color: #d6d5d5;
+    transition: transform 250ms ease-in-out;
+}
